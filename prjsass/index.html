@@ -1,0 +1,103 @@
+
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"> 
+    <title>Check Point GoMyCode</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <!--Début bare de navigation-->
+            <nav >  
+                <div  > 
+                    <ul class="nav-list">
+                        <li class="nav-item" ><a href="#"><img src="ressources/sevent.jpg" alt="logo"/></a> </li>
+                        <li class="nav-item" ><a href="#">Accueil</a> </li>
+                        <li class="nav-item" ><a href="#about">A propos</a> </li>
+                        <li class="nav-item" ><a href="#work">Service</a> </li>
+                        <li class="nav-item" ><a href="#resume">Mon CV</a> </li>
+                        <li class="nav-item" ><a href="#contact">Contact</a> </li>
+                    </ul> 
+                </div>
+            </nav>
+        <!--Fin bare de navigation-->    
+    </header>
+    <hr/>
+    <main>
+        <!--Les différentes section -->             
+            <section id="about">
+                <h2>A propos</h2>
+                <img src="ressources/moi.jpg" alt="apropos"/>
+                <p>
+                    Je suis Abdourahmane NDIAYE ingénieur en Informatique de nationalité sénégalaise.
+                    Je suis un passionné des nouvelles téchnologies. 
+                </p>
+            </section>
+            <section id="work">
+                <h2>Mes services</h2>
+                 <p>
+                    Nous proposons les services suivants:
+                    <ul type="square">
+                         <li>Développement de logiciel</li>
+                         <li>Audit des SI</li>                         
+                         <li>Infogérance </li>
+                         <li>Vente de solutions Microsoft</li>
+                    </ul>
+                 </p>
+            </section>
+            <section id="resume">
+                <h2>Voici mon CV</h2>
+                <ul type="square">
+                    <li> <h3>Formation</h3></li>
+                    <ul>
+                        <li>Juin 2012 : Diplome d'ingénieur à l'ENSA de Tanger</li>
+                        <li>Juin 2010 : Maitise en Génie Logiciel à la FST d'Errachidia</li>
+                        <li>Juin 2008 : DEUG MIP à la FST d'Errachidia</li>
+                        <li>Juin 2006 : BAC S1 LTICS</li>
+                    </ul>
+                    <li> <h3>Expériences</h3></li>
+                    <ul>
+                        <li>Depuis 2019 : Directeur des Systèmes d'information à ...</li>
+                        <li>De 2015 à 2019 :  Chef département informatique à ...</li>
+                        <li>De 2013 à 20215: Ingénieur développeur à la 2SI</li>
+                        <li>De 2011 à 2013: Ingénieur développeur à Intelect Solution</li> 
+                        <li>De 2010 à 2011: Stégiaire à Thales</li> 
+                    </ul>
+                </ul> 
+            </section>
+            <section id="contact">
+                <h2>Me contacter</h2>
+                
+                <form>
+                    <table>
+                        <tr>
+                            <td><label>Prenom</label></td>
+                            <td><input type="text" name="prenom"/></td>
+                            <td><label>Nom</label></td>
+                            <td><input type="text" name="nom"/></td>
+                        </tr> 
+                        <tr>
+                            <td><label>Email</label></td>
+                            <td><input type="email" name="email"/></td>
+                            <td><label>Telephone</label></td>
+                            <td><input type="tel" name="tel"/></td>
+                        </tr>  
+                        <tr>
+                            <td><label>Message</label></td>
+                            <td colspan="2" ><textarea id="message" width="95%"></textarea></td> 
+                            <td><button id="submit">Envoyer</button> </td>
+                        </tr>              
+                </table>
+                </form>
+            </section>
+            <!--Fin des sections-->
+    </main>
+    <hr/>
+    <!--bas de page-->
+    <footer>
+        &copy; 2024. - ARND. 
+    </footer>
+</body>
+</html>

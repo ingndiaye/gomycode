@@ -1,0 +1,301 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Reddit+Mono:wght@200..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap');
+
+body{
+    font-family: 'Reddit Mono';
+    padding: 0;
+}
+
+.header{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    background-color: white;
+    z-index: 1;
+    opacity: 0.8;
+}
+
+.navigation{
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
+}
+.menu ul{
+    display: flex;
+    list-style: none;
+    padding: 0;
+    margin-right: 50px;
+}
+
+.menu ul a{
+    text-decoration: none;
+    color: black;
+}
+.menu ul a:hover{
+    letter-spacing: 2px;
+    transition: 0.3s;
+    color: red;
+    font-weight: bold;
+    
+}
+.menu ul li{
+    margin: 0 30px;
+}
+
+.logo{
+    margin-left: 30px;
+}
+h2 span{
+    font-family: 'Pacifico';
+    color: red;
+}
+main{
+    margin-top: 70px;
+}
+
+.introduction, .intro1,.intro2{
+    width: 100%;
+}
+.introduction{
+    display: flex;
+    justify-content: space-around;
+}
+
+.intro1,.intro2{
+    width: 40%;
+    height: 400px;
+    padding-top: 30px;
+}
+
+.intro2{
+    padding-left: 30px;
+    padding-top: 50px;
+}
+
+.intro2 p{
+    width: 75%;
+}
+
+.intro1{
+    margin-left: 25px;
+}
+
+.intro1 img{
+    width: 100%;
+    border: 5px solid red;
+}
+
+.actions{
+    margin-top: 50px;
+}
+
+.actions button:nth-child(1){
+    padding: 15px;
+    border-radius: 8px;
+    border: 0;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-family: 'Reddit Mono';
+    width: 25%;
+}
+.actions button:nth-child(1):hover{
+    background-color: rgb(180, 11, 11);
+}
+
+.actions button:nth-child(2){
+    padding: 15px;
+    border-radius: 8px;
+    border: 0;
+    background-color: black;
+    cursor: pointer;
+    color: white;
+    font-family: 'Reddit Mono';
+    width: 25%;
+}
+
+.actions button:nth-child(2):hover{
+    background-color: white;
+    color: black;
+    border: 1px solid black;
+}
+
+.row .profile{
+    width: 25%;
+    height: 550px;
+    overflow: hidden;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.profile button{
+    padding: 5px;
+    border-radius: 5px;
+    margin-left: 10px;
+    border: 0;
+    height: 40px;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-family: 'Reddit Mono';
+}
+
+.profile p{
+    padding-left: 10px;
+}
+
+.profile{
+    background-color: white;
+}
+.picture{
+    height: 55%;
+    overflow: hidden;
+}
+
+.arona,.birane{
+   position: relative;
+}
+.arona img, .birane img{
+    position: absolute;
+    top: -40px;
+}
+.row .picture img{
+    width: 100%;
+   
+}
+
+.row{
+    display: flex;
+    margin: 25px;
+}
+
+.team1{
+    justify-content: space-around;
+}
+.team2{
+    justify-content: space-around;
+    
+}
+
+.team3{
+    justify-content: center;
+    padding-bottom: 50px;
+}
+.equipe{
+    background-color:rgb(0, 0, 0)   ;
+    border-radius: 30px;
+}
+.apropos h2{
+    text-align: center;
+}
+.inAbout{
+    display: flex;
+    justify-content: space-around;
+}
+
+.inAbout1,.inAbout2{
+    width: 45%;
+}
+
+.inAbout2 p{
+    margin-top: 15%;
+}
+
+.inAbout1{
+    border-radius: 30px;
+    overflow: hidden;
+}
+.inAbout1 img{
+    width: 100%;
+}
+.form{
+    width: 40%;
+    margin: 0 auto;
+    color: red;
+    
+}
+.contact h2{
+     text-align: center;
+}
+.form1{
+    display: flex;
+    justify-content: space-between;
+}
+.form1 input{
+    width: 98%;
+    height: 35px;
+    
+}
+
+.prenom,.nom,.email,.telephone{
+    width: 45%;
+}
+
+.message textarea{
+    width: 98%;
+    height: 100px;
+}
+
+.contact{
+    background-color: black;
+    padding-bottom: 25px;
+}
+
+.contact button{
+    padding: 15px;
+    border-radius: 8px;
+    border: 0;
+    background-color: red;
+    cursor: pointer;
+    color: white;
+    font-family: 'Reddit Mono';
+    width: 35%;
+}
+.contact h2{
+    margin: 20px auto;
+}
+
+.footer{
+    background-color: #c42028;
+    height: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+}
+.footer div{
+    /*border: 1px solid black;*/
+}
+.footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.footer a:hover{
+    text-decoration: underline;
+}
+
+
+.f1 p,.f1 ul{
+    /*border: 1px solid black;*/
+    display: inline-block;
+}
+.f1 p{
+    margin-left: 15px;
+    font-weight: 900;
+    letter-spacing: 2px;
+}
+.f1 ul{
+    width: 50%;
+    transform: translate(50%,0);
+    list-style-type: none;
+    
+}
+
+
+.logo_2{
+    font-weight: bold;
+   font-size: 16px;
+}
